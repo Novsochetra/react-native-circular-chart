@@ -5,7 +5,7 @@
   "main": "index.js",
   "module": "index.js",
   "react-native": "index.js",
-  "types": "index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/",
     "src/"
