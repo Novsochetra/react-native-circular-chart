@@ -1,0 +1,12 @@
+# generated files by bob
+lib/
+dist/
+node_modules/
+.expo/
+.DS_Store
+npm-debug.*
+package-lock.json
+.idea
+.vscode
+yarn.lock
+yarn-error.log

@@ -1,0 +1,86 @@
+{
+  "name": "react-native-donut-chart",
+  "version": "1.0.0",
+  "description": "donut chart for react-native.",
+  "main": "index.js",
+  "module": "index.js",
+  "react-native": "index.js",
+  "types": "index.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "@react-native-community/bob": {
+    "source": "src/",
+    "output": "dist/",
+    "targets": [
+      "module",
+      "typescript"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "yarn build",
+    "prepare": "bob build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Novsochetra/DonutChart.git"
+  },
+  "keywords": [
+    "donut-chart",
+    "react-native-donut-chart",
+    "chart",
+    "react-native"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.60.0",
+    "react-native-svg": ">=9"
+  },
+  "author": "sochetra NOV <sochetra12.nov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Novsochetra/DonutChart/issues"
+  },
+  "homepage": "https://github.com/Novsochetra/DonutChart#readme",
+  "devDependencies": {
+    "@react-native-community/bob": "^0.17.1",
+    "@types/react": "^17.0.2",
+    "@types/react-native": "^0.63.50",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.10.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4",
+    "metro-react-native-babel-preset": "^0.65.1",
+    "prettier": "^2.2.1",
+    "react-native-svg": "^12.1.0",
+    "typescript": "^4.1.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {}
+}
