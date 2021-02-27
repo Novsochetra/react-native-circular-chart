@@ -2,9 +2,9 @@
 
 ### Import components
 
-1.     `yarn add react-native-circular-chart`
-2.     `yarn add react-native-svg` install peer dependencies
-3.     Use with ES6 syntax to import components
+1. `yarn add react-native-circular-chart`
+2. `yarn add react-native-svg` install peer dependencies
+3. Use with ES6 syntax to import components
 
 `import { DonutChart } from "react-native-circular-chart";`
 
