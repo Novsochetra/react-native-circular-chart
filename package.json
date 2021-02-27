@@ -1,11 +1,11 @@
 {
-  "name": "react-native-circular-chart",
-  "version": "1.0.0",
-  "description": "circular chart for react-native.",
-  "main": "dist/commonjs/index.js",
-  "module": "dist/module/index.js",
-  "react-native": "src/index.tsx",
-  "types": "dist/typescript/src/index.d.ts",
+  "name": "react-native-donut-chart",
+  "version": "1.0.1",
+  "description": "donut chart for react-native.",
+  "main": "index.js",
+  "module": "index.js",
+  "react-native": "index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "src",
     "dist",
