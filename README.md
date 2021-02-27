@@ -1,3 +1,8 @@
+[<img src="https://github.com/Novsochetra/react-native-circular-chart/blob/main/assets/thumbnail.png" width="250"/>](image.png)
+
+[video demo](https://user-images.githubusercontent.com/20807120/109374979-d3250b00-78eb-11eb-8135-9c7cc338ce43.mov)
+
+
 ## React Native Circular Chart Documentation
 
 ### Import components
