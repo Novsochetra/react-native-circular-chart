@@ -2,18 +2,22 @@
   "name": "react-native-donut-chart",
   "version": "1.0.0",
   "description": "donut chart for react-native.",
-  "main": "index.js",
-  "module": "index.js",
-  "react-native": "index.js",
-  "types": "index.js",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/module/index.js",
+  "react-native": "src/index.tsx",
+  "types": "dist/typescript/src/index.d.ts",
   "files": [
-    "dist/",
-    "src/"
+    "src",
+    "dist",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
   ],
   "@react-native-community/bob": {
-    "source": "src/",
-    "output": "dist/",
+    "source": "src",
+    "output": "dist",
     "targets": [
+      "commonjs",
       "module",
       "typescript"
     ]
@@ -82,5 +86,9 @@
       "git add"
     ]
   },
-  "dependencies": {}
+  "dependencies": {},
+  "eslintIgnore": [
+    "node_modules/",
+    "dist/"
+  ]
 }

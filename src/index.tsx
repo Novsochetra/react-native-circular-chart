@@ -180,9 +180,11 @@ export const DonutChart = ({
 
   useEffect(() => {
     return () => {
-      data.forEach((_, i) => {
-        donutItemListeners[i].removeAllListeners();
-      });
+      if (animationType === "slide") {
+        data.forEach((_, i) => {
+          donutItemListeners[i].removeAllListeners();
+        });
+      }
     };
   }, []);
 
