@@ -1,7 +1,7 @@
 {
-  "name": "react-native-donut-chart",
+  "name": "react-native-circular-chart",
   "version": "1.0.7",
-  "description": "donut chart for react-native.",
+  "description": "circular chart for react-native.",
   "main": "index.js",
   "module": "index.js",
   "react-native": "index.js",
