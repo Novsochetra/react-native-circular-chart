@@ -54,6 +54,7 @@
   "homepage": "https://github.com/Novsochetra/react-native-circular-chart#readme",
   "devDependencies": {
     "@react-native-community/bob": "^0.17.1",
+    "@release-it/conventional-changelog": "^4.0.0",
     "@types/react": "^17.0.2",
     "@types/react-native": "^0.63.50",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
