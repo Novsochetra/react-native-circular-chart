@@ -27,7 +27,8 @@
     "prepublish": "yarn build",
     "prepare": "bob build",
     "build": "tsc",
-    "release:patch": "release-it patch"
+    "release:patch": "release-it patch",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
