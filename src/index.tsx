@@ -182,7 +182,12 @@ export const DonutChart = ({
     return () => {
       if (animationType === "slide") {
         data.forEach((_, i) => {
-          donutItemListeners[i].removeAllListeners();
+          if (
+            donutItemListeners?.[i] &&
+            donutItemListeners?.[i].removeAllListeners
+          ) {
+            donutItemListeners?.[i].removeAllListeners?.();
+          }
         });
       }
     };
