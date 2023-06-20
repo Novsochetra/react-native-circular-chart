@@ -228,6 +228,10 @@ export const DonutChart = ({
     }).start();
   }, []);
 
+  useEffect(() => {
+    setDisplayValue(data[0]);
+  }, [data]);
+
   const onUpdateDisplayValue = (value: DonutItem, index: number) => {
     setDisplayValue(value);
     animateOpacity.setValue(0);
